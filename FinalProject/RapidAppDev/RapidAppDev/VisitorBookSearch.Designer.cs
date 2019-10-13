@@ -170,7 +170,7 @@
             this.groupBox1.BackColor = System.Drawing.Color.SaddleBrown;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.BurlyWood;
+            this.groupBox1.ForeColor = System.Drawing.Color.Peru;
             this.groupBox1.Location = new System.Drawing.Point(621, 133);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(174, 77);
