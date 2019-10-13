@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B2CE2E7E-7CAB-43DF-A91F-E3669AB236E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RapidAppDev</RootNamespace>
+    <AssemblyName>RapidAppDev</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventCalendarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventCalendarDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EventCalendarDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EventCalendarDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user.cs" />
+    <Compile Include="UserAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAbout.Designer.cs">
+      <DependentUpon>UserAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserBar.Designer.cs">
+      <DependentUpon>UserBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserEvents.Designer.cs">
+      <DependentUpon>UserEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserPicture.Designer.cs">
+      <DependentUpon>UserPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserResaturant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserResaturant.Designer.cs">
+      <DependentUpon>UserResaturant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserBase.Designer.cs">
+      <DependentUpon>UserBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserBeach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserBeach.Designer.cs">
+      <DependentUpon>UserBeach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCamping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserCamping.Designer.cs">
+      <DependentUpon>UserCamping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserHotels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserHotels.Designer.cs">
+      <DependentUpon>UserHotels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserSites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserSites.Designer.cs">
+      <DependentUpon>UserSites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserVideos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserVideos.Designer.cs">
+      <DependentUpon>UserVideos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="visitor.cs" />
+    <Compile Include="VisitorAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorAbout.Designer.cs">
+      <DependentUpon>VisitorAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorBase.Designer.cs">
+      <DependentUpon>VisitorBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorBeach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorBeach.Designer.cs">
+      <DependentUpon>VisitorBeach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorHome.Designer.cs">
+      <DependentUpon>VisitorHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorPicture.Designer.cs">
+      <DependentUpon>VisitorPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorSites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorSites.Designer.cs">
+      <DependentUpon>VisitorSites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisitorVideos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorVideos.Designer.cs">
+      <DependentUpon>VisitorVideos.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserAbout.resx">
+      <DependentUpon>UserAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBar.resx">
+      <DependentUpon>UserBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserEvents.resx">
+      <DependentUpon>UserEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPicture.resx">
+      <DependentUpon>UserPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserResaturant.resx">
+      <DependentUpon>UserResaturant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBase.resx">
+      <DependentUpon>UserBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserBeach.resx">
+      <DependentUpon>UserBeach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCamping.resx">
+      <DependentUpon>UserCamping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHotels.resx">
+      <DependentUpon>UserHotels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserSites.resx">
+      <DependentUpon>UserSites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserVideos.resx">
+      <DependentUpon>UserVideos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorAbout.resx">
+      <DependentUpon>VisitorAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorBase.resx">
+      <DependentUpon>VisitorBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorBeach.resx">
+      <DependentUpon>VisitorBeach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorHome.resx">
+      <DependentUpon>VisitorHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorPicture.resx">
+      <DependentUpon>VisitorPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorSites.resx">
+      <DependentUpon>VisitorSites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisitorVideos.resx">
+      <DependentUpon>VisitorVideos.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="EventCalendarDataSet.xsc">
+      <DependentUpon>EventCalendarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EventCalendarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventCalendarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventCalendarDataSet.xss">
+      <DependentUpon>EventCalendarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EventCalendarDataSet1.xsc">
+      <DependentUpon>EventCalendarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EventCalendarDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EventCalendarDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EventCalendarDataSet1.xss">
+      <DependentUpon>EventCalendarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EventCalendar.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
