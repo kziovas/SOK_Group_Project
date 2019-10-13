@@ -22,8 +22,8 @@ namespace RapidAppDev
         private void ΠΑΡΑΛΙΕΣToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
-            VisitorBeach VBF = new VisitorBeach(Guest);
-            VBF.Show();
+            VisitorBookSearch VBSF = new VisitorBookSearch(Guest);
+            VBSF.Show();
             this.Close();
         }
 

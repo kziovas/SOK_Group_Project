@@ -74,8 +74,8 @@
             this.πΑΡΑΛΙΕΣToolStripMenuItem.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.πΑΡΑΛΙΕΣToolStripMenuItem.ForeColor = System.Drawing.Color.MidnightBlue;
             this.πΑΡΑΛΙΕΣToolStripMenuItem.Name = "πΑΡΑΛΙΕΣToolStripMenuItem";
-            this.πΑΡΑΛΙΕΣToolStripMenuItem.Size = new System.Drawing.Size(104, 36);
-            this.πΑΡΑΛΙΕΣToolStripMenuItem.Text = "ΠΑΡΑΛΙΕΣ";
+            this.πΑΡΑΛΙΕΣToolStripMenuItem.Size = new System.Drawing.Size(78, 36);
+            this.πΑΡΑΛΙΕΣToolStripMenuItem.Text = "ΒΙΒΛΙΑ";
             this.πΑΡΑΛΙΕΣToolStripMenuItem.Click += new System.EventHandler(this.ΠΑΡΑΛΙΕΣToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1

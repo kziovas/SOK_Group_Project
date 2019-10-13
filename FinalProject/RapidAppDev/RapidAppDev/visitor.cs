@@ -11,6 +11,7 @@ namespace RapidAppDev
         public string Username;
         public string Visits;
         public List<string> History = new List<string>();
+        public string orderId;
         public bool Visited(String pageName) {
             return this.History.Contains(pageName);
 

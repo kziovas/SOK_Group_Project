@@ -32,5 +32,15 @@ namespace RapidAppDev.Properties {
                 return ((string)(this["EventCalendarConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\\Books.mdb")]
+        public string BooksConnectionString {
+            get {
+                return ((string)(this["BooksConnectionString"]));
+            }
+        }
     }
 }

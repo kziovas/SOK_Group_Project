@@ -80,6 +80,7 @@ namespace RapidAppDev
                     visitor vistr = new visitor();
                     vistr.Username = dt.Tables[0].Rows[0]["Username"].ToString();
                     vistr.Visits = dt.Tables[0].Rows[0]["Visits"].ToString();
+                    vistr.orderId = "VON"+vistr.Visits.ToString();
                    
                     int visitcount = Convert.ToInt32(vistr.Visits);
            

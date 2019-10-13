@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BooksDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BooksDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="EventCalendarDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -162,6 +167,12 @@
     <Compile Include="VisitorBeach.Designer.cs">
       <DependentUpon>VisitorBeach.cs</DependentUpon>
     </Compile>
+    <Compile Include="VisitorBookSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitorBookSearch.Designer.cs">
+      <DependentUpon>VisitorBookSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="VisitorHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -247,6 +258,9 @@
     <EmbeddedResource Include="VisitorBeach.resx">
       <DependentUpon>VisitorBeach.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VisitorBookSearch.resx">
+      <DependentUpon>VisitorBookSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VisitorHome.resx">
       <DependentUpon>VisitorHome.cs</DependentUpon>
     </EmbeddedResource>
@@ -259,6 +273,17 @@
     <EmbeddedResource Include="VisitorVideos.resx">
       <DependentUpon>VisitorVideos.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="BooksDataSet.xsc">
+      <DependentUpon>BooksDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BooksDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BooksDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BooksDataSet.xss">
+      <DependentUpon>BooksDataSet.xsd</DependentUpon>
+    </None>
     <None Include="EventCalendarDataSet.xsc">
       <DependentUpon>EventCalendarDataSet.xsd</DependentUpon>
     </None>
@@ -317,6 +342,9 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Books.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="EventCalendar.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
