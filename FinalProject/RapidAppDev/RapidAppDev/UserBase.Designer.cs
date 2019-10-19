@@ -57,7 +57,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(218, 60);
             this.label3.TabIndex = 26;
-            this.label3.Text = "          By: Simewn Zapsis              Kostas Ziovas\r\n";
+            this.label3.Text = "          By: Simeon Zapsis              Schiza Olga\r\n";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label2
