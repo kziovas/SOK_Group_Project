@@ -172,7 +172,7 @@
 
         public System.Windows.Forms.MenuStrip menuStrip1;
         public System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
-        public System.Windows.Forms.ToolStripMenuItem πΑΡΑΛΙΕΣToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem BestSellersToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         public System.Windows.Forms.ToolStripMenuItem εΞΟΔΟToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem εΞΟΔΟΣToolStripMenuItem;

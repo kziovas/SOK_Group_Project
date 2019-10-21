@@ -18,7 +18,7 @@ namespace RapidAppDev
             InitializeComponent();
         }
 
-        private void ΠΑΡΑΛΙΕΣToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ΒιβλίαToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UserBeach UBF = new UserBeach(User);
             UBF.Show();
@@ -46,35 +46,42 @@ namespace RapidAppDev
             this.Close();
         }
 
-        private void ΞΕΝΟΔΟΧΕΙΑToolStripMenuItem_Click(object sender, EventArgs e)
+        private void BestSellersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UserHotels UHF = new UserHotels(User);
             UHF.Show();
             this.Hide();
         }
 
-        private void ΚΑΜΠΙΝΓΚToolStripMenuItem_Click(object sender, EventArgs e)
+        private void BestPricesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UserHotels UHF = new UserHotels(User);
+            UHF.Show();
+            this.Hide();
+        }
+
+        private void ΕκδηλώσειςToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UserCamping UCF = new UserCamping(User);
             UCF.Show();
             this.Hide();
         }
 
-        private void ΕΣΤΙΑΤΟΡΙΑToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ΚαφεToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UserResaturant URF = new UserResaturant(User);
             URF.Show();
             this.Hide();
         }
 
-        private void ΜΠΑΡToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ΜουσικήToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UserBar UBF = new UserBar(User);
             UBF.Show();
             this.Hide();
         }
 
-        private void ΕΚΔΗΛΩΣΕΙΣToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ΠροτάσειςToolStripMenuItem_Click(object sender, EventArgs e)
         {
             UserEvents UEF = new UserEvents(User);
             UEF.Show();

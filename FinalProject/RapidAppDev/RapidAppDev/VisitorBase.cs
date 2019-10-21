@@ -19,7 +19,7 @@ namespace RapidAppDev
             
         }
 
-        private void ΠΑΡΑΛΙΕΣToolStripMenuItem_Click(object sender, EventArgs e)
+        private void BestSellersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
             VisitorBookSearch VBSF = new VisitorBookSearch(Guest);
